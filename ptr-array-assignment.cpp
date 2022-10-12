@@ -14,7 +14,7 @@ int main() {
 	
 	
 	cout << "\n\nEnter input numbers: \n";
-	for (int i=0; i<=size; i++) {
+	for (int i=1; i<=size; i++) {
 		
 		cin >> array[i];
 	}
@@ -29,7 +29,7 @@ int main() {
 
 	cout << "The changed elements of array are: " << endl;
 	
-	for (int i = 0; i< size; i++)
+	for (int i = 1; i<= size; i++)
 	
 	{
 		cout << array[i] << endl;
