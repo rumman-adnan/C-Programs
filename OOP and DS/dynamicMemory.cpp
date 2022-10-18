@@ -43,17 +43,12 @@ int main () {
 			
 			
 			
-//			Node *var = new Node();
-//			cout << "Enter value: ";
-//			cin >> v ;
-//			var ->next = head;
-//			head =var;
-	
+
 				
 			Node *obj = new Node();
 			cout << "Enter any number: ";
 			cin >> num;
-			obj -> value;
+			obj -> value = num;
 			obj ->next = head;
 			head = obj;
 			
@@ -63,6 +58,13 @@ int main () {
 		
 		case '2': {
 			
+			Node *temp;
+			temp = head;
+			cout << "The link list dynamic elements are as follows: "<< endl;
+			while (temp != NULL) {
+				cout << temp ->value << '\t';
+				temp = temp->next;
+			}
 			
 			break;
 		}
