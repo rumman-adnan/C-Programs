@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-
+// simple singly created link list, no dynamic allocation. 
 
 
 class Node {      //class name should be start with capital letter
