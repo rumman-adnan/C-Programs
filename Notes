@@ -1,1 +1,21 @@
 test file
+
+char &y = x (y is just another name for x, its not pointer. its usage tells us this is not talking about address, just a reference of x. because it refers to same box so it contain same letter
+		reference is occupying space, its just another name of same variable. 
+cout << &x  // output same address
+cout << &y// output same address
+sometimes references are great, but updation of values can not be done with references, while in link list, or in dynamic memory updatin, we have to use pointers instead of refrences. 
+       
+       
+int can point to to integer, char can point to character, and it also occupying space. approperiate guy pointing to approperiate person. (same team people)
+
+
+int x;
+int *y = new int()  // advantages in POS system. when you have to deal with large customers
+After deletion, pointer still points to same location, but nothing sotred in that address. pointer points to NULL then.
+
+*y = NULL
+delete(y) also delete it from memory. 
+delete (y)  we delete that thing which pointer points to. Now pointer can opint to any random number, for safety purpose we hardcode it to NULL. 
+
+dangling pointer concept. 
