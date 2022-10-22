@@ -43,8 +43,8 @@ int main () {
 				cout << "\n\nEnter number: ";
 				cin >> num;
 				obj -> value = num;
-				obj -> next = head;
-				head = obj;
+				obj -> next = head; // As head points to NULL, so obj points to NULL, now obj is last node. 
+				head = obj;     //Now here head is storing address of obj 
 				break;
 			}
 			
