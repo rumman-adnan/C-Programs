@@ -1,5 +1,22 @@
 test file
 
+Notes for Pointers: 
+
+Binary system [0,1]
+hexa decimal system [0-F]
+
+memory locations in hexa decimal system in RAM. 
+RAM is more accessible, For quick access program load in RAM. 
+so all binary files will stored in RAM. when we load program. CPU is machine that computes
+ALU 
+
+instruction feed in program counter. then executed, 
+1.2 billions second instruction will be executed, so fast it works. 
+ 
+
+
+
+
 char &y = x (y is just another name for x, its not pointer. its usage tells us this is not talking about address, just a reference of x. because it refers to same box so it contain same letter
 		reference is occupying space, its just another name of same variable. 
 cout << &x  // output same address
