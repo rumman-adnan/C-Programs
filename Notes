@@ -36,3 +36,42 @@ delete(y) also delete it from memory.
 delete (y)  we delete that thing which pointer points to. Now pointer can opint to any random number, for safety purpose we hardcode it to NULL. 
 
 dangling pointer concept. 
+
+10/24/2022
+
+Array: 
+
+
+Array is collection of variables. 
+boxes can not be added or deleted further. we can change values. 
+array is immutable unlike other structures.  
+
+int *num = NULL;
+num = new int(2)  // store garbage value.
+
+num = NULL // start pointing to nothing, dont point anyspecific place. 
+
+delete num; // this deletes memory location
+
+pointer is always declared on stack. 
+we can change values by pass by vaues inside main function, but problem is space complexity. it creatres extra spaces. 
+so we use pass by reference. use pointers to change values. 
+
+swap(int *x, int *y) {
+int temp = *x;
+*x = *y;
+*y = temp; }
+int main() {
+swap(&a, &b);
+}
+
+
+
+Exam paper: 
+1. C
+2. 
+3. 
+4. 
+5. 
+---
+
