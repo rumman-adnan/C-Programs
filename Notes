@@ -75,3 +75,13 @@ Exam paper:
 5. 
 ---
 
+
+2D arrays: 
+It is a collection of boxes, 2 dimensional. 
+first box of any row can only see its own row. 
+If your room is 5th room on 4th floor. First you will go to 4 th floor, then search 5th room. 
+All boxes in 2D array are of same data type. 
+we can not take input after making array. 
+Individual variable boxes, do anything with them. like int a. 
+
+
