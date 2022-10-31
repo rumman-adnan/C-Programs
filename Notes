@@ -78,10 +78,32 @@ Exam paper:
 
 2D arrays: 
 It is a collection of boxes, 2 dimensional. 
-first box of any row can only see its own row. 
+first box of any row can only see itsown row. 
 If your room is 5th room on 4th floor. First you will go to 4 th floor, then search 5th room. 
 All boxes in 2D array are of same data type. 
 we can not take input after making array. 
 Individual variable boxes, do anything with them. like int a. 
+
+
+31/10/22
+Strings:
+Some part of OOP also covered. 
+
+A box called string, we can store strings in it. and use functions on them.
+string is a kind of array, character array. when we make string, somebody will make chracters array on our brhalf.
+there are many ready made functions of strings in string library. 
+If we want to make our own functions instead of using his functions. we can make our own function.
+
+how to apply asci values to indexes?
+we can convert upper case to lower case usign ASCII codes.
+
+precedes: come before.
+array has exception in passing on functions. 
+isNumeric();
+isAlpha();
+inAlphaNum();
+
+
+
 
 
