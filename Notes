@@ -105,5 +105,12 @@ inAlphaNum();
 
 
 
+Trees: A graph, Google maps working on trees, every tree is graph data structure but every graph is not tree. 
+google map: which routeis shortest? 
+no cycles in tree 
+we can do from parent to child and vice versa but not go from one child to another child.
+Tree mostly used in decision making, machine learning. 
+akinator. last nodes are personalities, take guesses by yes, no. so he move to child further. 
 
-
+Binary Tree
+https://www.cs.usfca.edu/~galles/visualization/BST.html 
