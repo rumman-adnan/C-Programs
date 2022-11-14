@@ -1,0 +1,64 @@
+#include <iostream>
+using namespace std;
+
+
+class tree {
+public:
+int data;
+tree *left;
+tree *right;
+tree *parent;
+int counter = 0;
+
+tree* createNode(tree* node, int x) {
+
+if (node == NULL) {
+node = new tree();  // gives us new node address, which is align to parent node on recursion call.
+node->data = x;
+node->left = NULL;
+node->right = NULL;
+node->parent = NULL;
+}
+else if(node->data > x) {
+
+node->left = createNode(node->left,x); //it attach new adddress to the left of node, and store value of newly created node, now need backward linking
+node->left->parent = node;
+}
+else  {
+
+node->right = createNode(node->right,x); //it attach new adddress to the right of node, and store value, now need backward linking
+node->right->parent = node;
+}
+return node;
+}
+
+void inOrder (tree* node) {
+if (node == NULL) {
+counter++;
+return;
+}
+inOrder(node->left);
+cout << node->data;
+counter++;
+
+inOrder(node->right);
+}
+};
+ 
+
+
+
+int main () {
+
+tree* root = NULL;
+
+root= root->createNode(root,5);
+root ->createNode(root,15);
+root ->createNode(root,4);
+root->inOrder(root);
+
+cout <<endl << root->counter;
+
+
+return 0;
+}
