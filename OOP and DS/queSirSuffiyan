@@ -1,0 +1,51 @@
+#include <iostream>
+using namespace std;
+
+class queue {
+	public:
+//		int size = 10;
+		int numbers[10];
+		int front = -1;
+		int rear = -1;
+		
+	void Dequeue() {
+	if (rear == -1 || front > rear) {
+		cout << endl << "Que is Empty";
+	}
+	else {
+		cout << endl << numbers[front];
+		front++;
+	}
+	}
+	void Enqueue (int x) {
+		if (rear == 9) {
+			cout << "Size is full";
+		}
+		else if (front == -1){
+			front = 0;
+			numbers [++rear] = x;
+		}
+		else {
+			numbers [++rear] = x;
+				}
+	}
+};
+
+
+
+int main () {
+	
+	queue q1;
+	
+	q1.Enqueue(5);
+	q1.Enqueue(6);
+	q1.Enqueue(7);
+
+	q1.Dequeue();
+	q1.Dequeue();
+	q1.Dequeue();
+	q1.Dequeue(); 
+	
+	return 0;
+}
+
