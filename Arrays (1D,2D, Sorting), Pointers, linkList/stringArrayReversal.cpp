@@ -8,7 +8,7 @@ int main () {
 	cout << "Enter the number of students: ";
 	cin >> count;
 	string name[count];
-	
+	int size = count;
 	for(int i=0; i<count; i++) {
 		
 		cout << "Enter the name (" << i << ") : ";
@@ -24,7 +24,7 @@ int main () {
 		
 	}
 		
-	for(int i=0; i<count; i++) {
+	for(int i=0; i<size; i++) {
 		
 		
 		cout << name[i] << '\t';
